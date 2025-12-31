@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #111;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: linear-gradient(
+        rgba(255,255,255,0.6),
+        rgba(255,255,255,0.6)
+    ),
+    url("https://images.unsplash.com/photo-1519681393784-d120267933ba") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    letter-spacing: 2px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 15px 0 30px;
+}
+
+.btn {
+    padding: 12px 30px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+/* SECTIONS */
+.section {
+    display: flex;
+    align-items: center;
+    padding: 100px 10%;
+    gap: 60px;
+}
+
+.section.alt {
+    background-color: #f9f6f7;
+}
+
+.section img {
+    width: 40%;
+    border-radius: 20px;
+}
+
+.text {
+    width: 60%;
+}
+
+.text h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+}
+
+.text p {
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+/* LISTE LUXE */
+.lux-list {
+    list-style: none;
+}
+
+.lux-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* CONTACT */
+.contact {
+    text-align: center;
+    padding: 100px 10%;
+    background: linear-gradient(90deg, #f7c6d0, #cce6ff);
+}
+
+.contact h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    margin-bottom: 40px;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-size: 0.9rem;
+}
